@@ -1,0 +1,11 @@
+package dssc.assignment;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+public class test_years {
+    @Test
+    void prova_anno() {
+    #il test ha successo se il numero inserito si riferisce a un anno bisesto
+        Year a = new Year(2000);
+        assertTrue(a.is_leaf());
+    }
+}
